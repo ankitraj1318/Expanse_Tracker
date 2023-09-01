@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@200&display=swap');
+:root {
+  --font1 : font-family: 'Kanit', sans-serif;
+}
+.login-page {
+  height: 100vh !important;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-form {
+  background-color: #1a0026b6;
+  margin-left: -15px;
+  padding: 30px;
+}
+
+.login-form h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  color: #ffffff;
+}
+
+.login-form .ant-form-item-label label {
+  color: #ffffff !important;
+}
+.login-form button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+.login-form button:hover {
+  background-color: rgb(36, 43, 252);
+  color: white;
+}
+.login-form a {
+  color: #ffffff !important;
+}
+
+.login-form a:hover {
+  color: rgb(35, 73, 211) !important;
+}
+
+.main-heading {
+  color: rgb(140, 69, 3);
+  font-family: var(--font1);
+}

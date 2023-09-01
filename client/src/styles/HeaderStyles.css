@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+:root {
+  --font1 : 'Raleway', sans-serif;
+
+}
+
+.navbar {
+  background-color: #3fc2c442 !important;
+}
+.navbar .navbar-brand {
+  color: #064f4a !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.0rem;
+  font-family: var(--font1);
+  font-weight: bold;
+}
+
+.navbar h6 {
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.logo {
+  background-color: black;
+  color: aliceblue;
+  font-size: 0.7rem;
+}
